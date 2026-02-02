@@ -53,7 +53,7 @@ This cheatsheet provides a complete reference for building production-ready RAG 
 
 ## 📁 File Structure
 
-The cheatsheet is organized into 10 numbered files, each covering a specific aspect of RAG:
+The cheatsheet is organized into **10 self-contained files**, each covering a specific aspect of RAG. All content is distributed across these files - there is no single master file. Each file includes complete code examples and can be read independently:
 
 ### Core Fundamentals
 
@@ -114,6 +114,7 @@ The cheatsheet is organized into 10 numbered files, each covering a specific asp
 - create_history_aware_retriever (conversational RAG)
 - Complete end-to-end RAG pipeline example
 - Streaming RAG responses
+- Quick Reference section (installation and basic pipeline)
 
 ### Advanced Topics
 
@@ -201,18 +202,19 @@ Before diving into this cheatsheet, you should have:
 ```
 .
 ├── README.md                          # This guide (no code examples)
-├── langchain_rag_cheatsheet.md        # Original master file (optional reference)
 ├── 01-introduction-to-rag.md          # Section 1: Introduction
 ├── 02-document-loading.md             # Section 2: Document Loading
 ├── 03-text-splitting.md               # Section 3: Text Splitting
 ├── 04-embeddings.md                   # Section 4: Embeddings
 ├── 05-vector-stores.md                # Section 5: Vector Stores
 ├── 06-retrievers.md                   # Section 6: Retrievers
-├── 07-rag-chains-lcel.md              # Section 7: RAG Chains (LCEL)
+├── 07-rag-chains-lcel.md              # Section 7: RAG Chains (LCEL) + Quick Reference
 ├── 08-advanced-rag-techniques.md      # Section 8: Advanced Techniques
 ├── 09-prompt-engineering-for-rag.md   # Section 9: Prompt Engineering
 └── 10-evaluation-and-optimization.md   # Section 10: Evaluation & Optimization
 ```
+
+**Note**: The cheatsheet is organized into 10 self-contained files. Each file includes complete code examples and can be read independently, though following the numerical sequence (01-10) is recommended for beginners.
 
 ## 🤝 Contributing
 
